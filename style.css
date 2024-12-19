@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./img/the\ witcher\ hell.png);
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 4rem;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .logo img {
+  width: 35px;
+}
+header .logo h1 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+header ul {
+  display: flex;
+  gap: 60px;
+}
+header ul li {
+  font-size: 16px;
+  font-weight: 400;
+}
+header ul #bold {
+  font-weight: bold;
+}
+
+main {
+  height: 90vh;
+  background-image: url(./img/the\ witcher\ kavil2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+main .btn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+main .btn img {
+  width: 250px;
+}/*# sourceMappingURL=style.css.map */
